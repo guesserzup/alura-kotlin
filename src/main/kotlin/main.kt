@@ -1,5 +1,4 @@
 fun main() {
-
     println("Curso Kotlin Alura")
 
     val titular = "Gabriel Guesser"
@@ -12,6 +11,9 @@ fun main() {
     println("Número da conta $accountNumber")
     println("Saldo da conta $saldo")
 
+}
+
+fun testaCondicoes(saldo: Double) {
     when {
         saldo > 0.0 -> println("conta é positiva!")
 
