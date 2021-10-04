@@ -11,6 +11,11 @@ fun main() {
     println("Número da conta $accountNumber")
     println("Saldo da conta $saldo")
 
+    testaCondicoes(20.0)
+
+    for (i in 10 downTo 0 step 5) {
+        println(i)
+    }
 }
 
 fun testaCondicoes(saldo: Double) {
